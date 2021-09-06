@@ -9,8 +9,6 @@
       </ul>
     </nav>
   </header>
-
-  
 </template>
 
 <script>
@@ -111,5 +109,4 @@ export default {
       }
     }
   }
-
 </style>

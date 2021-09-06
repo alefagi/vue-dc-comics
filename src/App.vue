@@ -19,7 +19,6 @@ import Shop from '@/components/Shop.vue';
 import Links from '@/components/Links.vue';
 import Social from '@/components/Social.vue';
 
-
 export default {
   name: 'App',
   components: {
