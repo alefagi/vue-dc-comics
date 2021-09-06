@@ -1,24 +1,26 @@
 <template>
   <div id="app">
     <Header />
-    <main></main>
+    <main>
+      <Content />
+    </main>
     <footer></footer>
   </div>
 </template>
 
 <script>
 import Header from '@/components/Header.vue';
-/* import Content from '@/components/Content.vue';
-import Shop from '@/components/Shop.vue';
+import Content from '@/components/Content.vue';
+/* import Shop from '@/components/Shop.vue';
 import Links from '@/components/Links.vue';
-import Social from '@/components/Social.vue';
- */
+import Social from '@/components/Social.vue'; */
+
 export default {
   name: 'App',
   components: {
     Header,
-/*     Content,
-    Shop,
+    Content,
+/*     Shop,
     Links,
     Social, */
   }
@@ -32,7 +34,7 @@ export default {
   box-sizing: border-box;
 }
 
-body {
+.container {
   max-width: 1000px;
   margin: 0 auto;
 }
