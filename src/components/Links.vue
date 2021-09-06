@@ -62,6 +62,7 @@ export default {
 <style scoped lang="scss">
   #links {
     background-image: url('../assets/img/footer-bg.jpg');
+    background-size: cover;
     height: 270px;
     .container {
       display: flex;
