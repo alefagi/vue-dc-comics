@@ -22,7 +22,7 @@ export default {
 
 <style scoped lang="scss">
   #social {
-    height: 80px;
+    height: 70px;
     background-color: #303030;
     .container {
       display: flex;
@@ -36,6 +36,7 @@ export default {
         color: #fff;
         text-transform: uppercase;
         cursor: pointer;
+        font-size: 0.7rem;
       }
       div {
         height: 100%;
@@ -45,9 +46,11 @@ export default {
           text-transform: uppercase;
           color: #0282f9;
           font-weight: bold;
+          font-size: 0.9rem;
         }
         img {
-          padding-left: 15px;
+          padding-left: 10px;
+          width: 80%;
         }
       }
     }

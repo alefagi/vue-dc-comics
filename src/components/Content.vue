@@ -16,7 +16,7 @@ export default {
   #content {
     background-color: #1c1c1c;
     color: #fff;
-    height: 100px;
-    line-height: 100px;
+    line-height: calc(100vh - 520px);
+    height: calc(100vh - 520px);
   }
 </style>

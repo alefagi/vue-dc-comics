@@ -38,6 +38,10 @@ export default {
   box-sizing: border-box;
 }
 
+body {
+  height: 100vh;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;

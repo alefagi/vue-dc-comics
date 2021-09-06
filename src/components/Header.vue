@@ -78,11 +78,11 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 80px;
   }
 
   figure {
-    height: 80px;
+    height: 55px;
   }
 
   ul {
@@ -97,7 +97,7 @@ export default {
       a {
         text-decoration: none;
         color: #000;
-        padding: 40px 10px;
+        padding: 30px 10px;
         &.active {
           color: #0282f9;
           border-bottom: 4px solid #0282f9;

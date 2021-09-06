@@ -43,7 +43,7 @@ export default {
 
 <style scoped lang="scss">
   #shop {
-    height: 120px;
+    height: 100px;
     background-color: #0282f9;
     .container {
       height: 100%;
@@ -62,8 +62,8 @@ export default {
           padding-left: 5px;
         }
         figure {
-          height: 50px;
-          width: 50px;
+          height: 40px;
+          width: 40px;
           display: flex;
         }
       }
