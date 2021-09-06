@@ -6,7 +6,7 @@
     <nav>
       <ul>
         <li><a href="#">Characters</a></li>
-        <li><a href="#">Comics</a></li>
+        <li><a href="#" class="active">Comics</a></li>
         <li><a href="#">Movies</a></li>
         <li><a href="#">Tv</a></li>
         <li><a href="#">Games</a></li>
@@ -53,7 +53,7 @@ export default {
         text-decoration: none;
         color: #000;
         padding: 40px 10px;
-        &:active {
+        &.active {
           color: #0282f9;
           border-bottom: 4px solid #0282f9;
         }
