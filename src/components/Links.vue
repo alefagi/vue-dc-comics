@@ -86,8 +86,17 @@ export default {
 
   figure {
     height: 270px;
+    width: 410px;
+    position: relative;
+    overflow: hidden;
   }
 
+  img {
+    max-height: 410px;
+    max-width: 410px;
+    position: absolute;
+    top: -70px;
+  }
  
 
   h4 {
