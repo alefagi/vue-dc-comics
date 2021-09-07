@@ -21,7 +21,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/_variables.scss";
+@import "@/assets/scss/_variables.scss";
+
   #social {
     height: 70px;
     background-color: #303030;
@@ -30,30 +31,32 @@ export default {
       justify-content: space-between;
       align-items: center;
       height: 100%;
-      button {
-        border: 2px solid $brand_primary;
-        padding: 8px;
-        background-color: #303030;
-        color: #fff;
-        text-transform: uppercase;
-        cursor: pointer;
-        font-size: 0.7rem;
-      }
       div {
         height: 100%;
         display: flex;
         align-items: center;
         span {
           text-transform: uppercase;
-          color: $brand_primary;
+          color: $brand-primary;
           font-weight: bold;
           font-size: 0.9rem;
         }
-        img {
-          padding-left: 10px;
-          width: 80%;
-        }
       }
     }
+  }
+
+  button {
+    border: 2px solid $brand-primary;
+    padding: 8px;
+    background-color: #303030;
+    color: $brand-text;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 0.7rem;
+  }
+
+  img {
+    padding-left: 10px;
+    width: 80%;
   }
 </style>

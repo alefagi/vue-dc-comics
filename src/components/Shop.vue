@@ -42,32 +42,34 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/_variables.scss";
+@import "@/assets/scss/_variables.scss";
+
   #shop {
     height: 100px;
-    background-color: $brand_primary;
+    background-color: $brand-primary;
     .container {
       height: 100%;
       display: flex;
       justify-content: space-evenly;
       align-items: center;
-      a {
-        height: 100%;
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        span {
-          color: #fff;
-          text-transform: uppercase;
-          font-size: 0.8rem;
-          padding-left: 5px;
-        }
-        figure {
-          height: 40px;
-          width: 40px;
-          display: flex;
-        }
-      }
+    }
+  }
+
+  a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    figure {
+      height: 40px;
+      width: 40px;
+      display: flex;
+    }
+    span {
+      color: $brand-text;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      padding-left: 5px;
     }
   }
 </style>

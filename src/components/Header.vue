@@ -74,7 +74,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/_variables.scss";
+@import "@/assets/scss/_variables.scss";
 
   header {
     display: flex;
@@ -84,25 +84,26 @@ export default {
     figure {
       height: 55px;
     }
-    ul {
-      display: flex;
-      li {
-        list-style-type: none;
-        text-transform: uppercase;
-        font-size: 0.8rem;
-        font-weight: bold;
-        a {
-          text-decoration: none;
-          color: #000;
-          padding: 30px 10px;
-          &.active {
-            color: $brand_primary;
-            border-bottom: 4px solid $brand_primary;
-          }
-          &:hover {
-            color: $brand_primary;
-            border-bottom: 4px solid $brand_primary;
-          }
+  }
+
+  ul {
+    display: flex;
+    li {
+      list-style-type: none;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      font-weight: bold;
+      a {
+        text-decoration: none;
+        color: #000;
+        padding: 30px 10px;
+        &.active {
+          color: $brand-primary;
+          border-bottom: 4px solid $brand-primary;
+        }
+        &:hover {
+          color: $brand-primary;
+          border-bottom: 4px solid $brand-primary;
         }
       }
     }

@@ -32,23 +32,5 @@ export default {
 </script>
 
 <style lang="scss">
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  height: 100vh;
-}
-
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
+@import "@/assets/scss/style.scss";
 </style>

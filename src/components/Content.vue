@@ -13,9 +13,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "@/assets/scss/_variables.scss";
+
   #content {
     background-color: #1c1c1c;
-    color: #fff;
+    color: $brand-text;
     line-height: calc(100vh - 520px);
     height: calc(100vh - 520px);
   }
