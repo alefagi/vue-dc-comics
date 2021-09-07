@@ -72,6 +72,12 @@ export default {
         padding-top: 30px;
         &>div {
           padding-right: 30px;
+          h4 {
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            margin-top: 10px;
+          }
           li {
             list-style-type: none;
             font-size: 0.8rem;
@@ -82,28 +88,19 @@ export default {
           }
         }
       }
+      figure {
+        height: 270px;
+        width: 410px;
+        position: relative;
+        overflow: hidden;
+        img {
+          max-height: 410px;
+          max-width: 410px;
+          position: absolute;
+          top: -70px;
+        }
+      }
     }
   }
 
-  figure {
-    height: 270px;
-    width: 410px;
-    position: relative;
-    overflow: hidden;
-  }
-
-  img {
-    max-height: 410px;
-    max-width: 410px;
-    position: absolute;
-    top: -70px;
-  }
- 
-
-  h4 {
-    color: #fff;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    margin-top: 10px;
-  }
 </style>

@@ -79,32 +79,28 @@ export default {
     justify-content: space-between;
     align-items: center;
     height: 80px;
-  }
-
-  figure {
-    height: 55px;
-  }
-
-  ul {
-    display: flex;
-    
-    li {
-      list-style-type: none;
-      text-transform: uppercase;
-      font-size: 0.8rem;
-      font-weight: bold;
-      
-      a {
-        text-decoration: none;
-        color: #000;
-        padding: 30px 10px;
-        &.active {
-          color: #0282f9;
-          border-bottom: 4px solid #0282f9;
-        }
-        &:hover {
-          color: #0282f9;
-          border-bottom: 4px solid #0282f9;
+    figure {
+      height: 55px;
+    }
+    ul {
+      display: flex;
+      li {
+        list-style-type: none;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        font-weight: bold;
+        a {
+          text-decoration: none;
+          color: #000;
+          padding: 30px 10px;
+          &.active {
+            color: #0282f9;
+            border-bottom: 4px solid #0282f9;
+          }
+          &:hover {
+            color: #0282f9;
+            border-bottom: 4px solid #0282f9;
+          }
         }
       }
     }
