@@ -74,6 +74,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "@/assets/_variables.scss";
+
   header {
     display: flex;
     justify-content: space-between;
@@ -94,12 +96,12 @@ export default {
           color: #000;
           padding: 30px 10px;
           &.active {
-            color: #0282f9;
-            border-bottom: 4px solid #0282f9;
+            color: $brand_primary;
+            border-bottom: 4px solid $brand_primary;
           }
           &:hover {
-            color: #0282f9;
-            border-bottom: 4px solid #0282f9;
+            color: $brand_primary;
+            border-bottom: 4px solid $brand_primary;
           }
         }
       }

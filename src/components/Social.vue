@@ -21,6 +21,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "@/assets/_variables.scss";
   #social {
     height: 70px;
     background-color: #303030;
@@ -30,7 +31,7 @@ export default {
       align-items: center;
       height: 100%;
       button {
-        border: 2px solid #0282f9;
+        border: 2px solid $brand_primary;
         padding: 8px;
         background-color: #303030;
         color: #fff;
@@ -44,7 +45,7 @@ export default {
         align-items: center;
         span {
           text-transform: uppercase;
-          color: #0282f9;
+          color: $brand_primary;
           font-weight: bold;
           font-size: 0.9rem;
         }

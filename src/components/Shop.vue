@@ -42,9 +42,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "@/assets/_variables.scss";
   #shop {
     height: 100px;
-    background-color: #0282f9;
+    background-color: $brand_primary;
     .container {
       height: 100%;
       display: flex;
