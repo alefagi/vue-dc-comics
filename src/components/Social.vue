@@ -4,11 +4,11 @@
       <button>sign-up now!</button>
       <div>
         <span>follow us</span>
-        <a href="#"><img src="@/assets/img/footer-facebook.png" alt="facebook"></a>
-        <a href="#"><img src="@/assets/img/footer-twitter.png" alt="twitter"></a>
-        <a href="#"><img src="@/assets/img/footer-youtube.png" alt="youtube"></a>
-        <a href="#"><img src="@/assets/img/footer-pinterest.png" alt="pinterest"></a>
-        <a href="#"><img src="@/assets/img/footer-periscope.png" alt="periscope"></a>
+        <a href="#"><img src="../assets/img/footer-facebook.png" alt="facebook"></a>
+        <a href="#"><img src="../assets/img/footer-twitter.png" alt="twitter"></a>
+        <a href="#"><img src="../assets/img/footer-youtube.png" alt="youtube"></a>
+        <a href="#"><img src="../assets/img/footer-pinterest.png" alt="pinterest"></a>
+        <a href="#"><img src="../assets/img/footer-periscope.png" alt="periscope"></a>
       </div>
     </div>
   </section>
@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/scss/_variables.scss";
+@import "../assets/scss/_variables.scss";
 
   #social {
     height: 70px;

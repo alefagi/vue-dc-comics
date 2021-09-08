@@ -2,7 +2,8 @@
   <div id="app">
     <Header />
     <main>
-      <Content />
+      <Jumbotron />
+      <CurrentSeries />
       <Shop />
     </main>
     <footer>
@@ -13,17 +14,19 @@
 </template>
 
 <script>
-import Header from '@/components/Header.vue';
-import Content from '@/components/Content.vue';
-import Shop from '@/components/Shop.vue';
-import Links from '@/components/Links.vue';
-import Social from '@/components/Social.vue';
+import Header from './components/Header.vue';
+import CurrentSeries from './components/CurrentSeries.vue';
+import Shop from './components/Shop.vue';
+import Links from './components/Links.vue';
+import Social from './components/Social.vue';
+import Jumbotron from './components/Jumbotron.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
-    Content,
+    Jumbotron,
+    CurrentSeries,
     Shop,
     Links,
     Social, 
@@ -32,5 +35,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/assets/scss/style.scss";
+@import "./assets/scss/style.scss";
 </style>

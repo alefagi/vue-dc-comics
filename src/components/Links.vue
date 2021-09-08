@@ -47,7 +47,7 @@
         </div>
       </div>
       <figure>
-        <img src="@/assets/img/dc-logo-bg.png" alt="logo-bg">
+        <img src="../assets/img/dc-logo-bg.png" alt="logo-bg">
       </figure>
     </div>
   </section>
@@ -60,7 +60,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/scss/_variables.scss";
+@import "../assets/scss/_variables.scss";
 
   #links {
     background-image: url('../assets/img/footer-bg.jpg');

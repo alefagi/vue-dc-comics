@@ -1,7 +1,7 @@
 <template>
   <header class="container">
     <figure>
-      <img src="@/assets/img/dc-logo.png" alt="dc-logo">
+      <img src="../assets/img/dc-logo.png" alt="dc-logo">
     </figure>
     <nav>
       <ul>
@@ -74,7 +74,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/scss/_variables.scss";
+@import "../assets/scss/_variables.scss";
 
   header {
     display: flex;
