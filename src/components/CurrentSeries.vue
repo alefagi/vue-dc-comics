@@ -2,6 +2,7 @@
   <section id="content">
     <div class="container">
       <SeriesCard v-for="(card, index) in SeriesCards" :key="index" :image="card.thumb" :title="card.series" />
+      <button>LOAD MORE</button>
     </div>
   </section>
 </template>
@@ -113,10 +114,21 @@ export default {
   #content {
     background-color: #1c1c1c;
     color: $brand-text;
-    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 20px;
     .container {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
     }
+  }
+
+  button {
+    color: $brand-text;
+    background-color: $brand-primary;
+    padding: 10px 60px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
   }
 </style>
