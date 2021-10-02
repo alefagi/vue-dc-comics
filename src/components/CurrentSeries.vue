@@ -134,7 +134,7 @@ export default {
     font-size: 1.2rem;
     font-weight: bold;
     position: absolute;
-    left: -10px;
+    left: 0;
     top: -85px;
   }
 

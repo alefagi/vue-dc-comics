@@ -24,12 +24,13 @@ export default {
     width: 160px;
     max-height: 160px;
     overflow: hidden;
-    margin-bottom: 15px;
+    margin: 15px auto;
   }
 
   figcaption {
     text-transform: uppercase;
     font-size: 0.8rem;
     width: 160px;
+    margin: 0 auto;
   }
 </style>
